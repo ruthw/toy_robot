@@ -10,7 +10,7 @@ Clone Toy Robot repo:
 
 Go into the project folder:
 
-    $ cd robot
+    $ cd toy_robot
 
 Install bundler if you don't have it:
 
@@ -77,6 +77,7 @@ As the requirement describe one robot move on the table and there are no other o
 1. Rspec, DRY up tests little more by using shared context etc
 2. Rspec, add FactoryBot to mock up for tests with defined object to share in tests
 3. Input command is currently case sensitive, and only handle exactly same command. Can improve to be not case sensitive.
+4. Use Rubocop to improve code.
 
 
 ## Authors
