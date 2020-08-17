@@ -73,6 +73,8 @@ As the requirement describe one robot move on the table and there are no other o
 
 2. Break down the robot moving problem into smaller classes, so each class will handle only one responsibility. Which will make code structure clean, also easy to extend later. Such as if need more different report formate, the only one class need to touch is the 'Reporter'.
 
+3. Right now with small amount of data, store in memory is fine. Later is expend for more, might consider use external storage like file system or DB etc to provend having too many things in memory.
+
 ## Future possible improvements if have more time
 1. Rspec, DRY up tests little more by using shared context etc
 2. Rspec, add FactoryBot to mock up for tests with defined object to share in tests
